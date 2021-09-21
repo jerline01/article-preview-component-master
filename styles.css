@@ -1,0 +1,74 @@
+
+body {
+  padding: 30% 10%;
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
+}
+
+h4,h6 {
+  color: hsl(217, 19%, 35%);
+}
+
+h4,p {
+  padding: 0 0 20px;
+  line-height: 1.5;
+}
+
+p,.date {
+  color: hsl(214, 17%, 51%);
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+}
+
+.michelle-img {
+  border-radius: 50%;
+  width: 10%;
+  float: left;
+}
+
+.text {
+  background-color: white;
+  padding: 0;
+}
+
+.content {
+  padding: 3%;
+}
+
+.name {
+  padding-left: 70px;
+}
+
+.img {
+  padding: 0;
+}
+
+.share-img {
+  position: relative;
+  left: 200px;
+}
+
+@media (max-width:600px) {
+
+  h4 {
+    padding-top: 4%;
+  }
+
+  .content {
+    padding: 5%;
+  }
+
+  .icons {
+    background-color:  hsl(217, 19%, 35%);
+    color: white;
+    padding: 5%;
+  }
+
+  .facebook,.twitter,.pinterest {
+    margin: 3%;
+  }
+
+}
